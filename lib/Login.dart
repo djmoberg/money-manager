@@ -103,9 +103,18 @@ class MyCustomFormState extends State<MyCustomForm> {
                 ),
               ),
             ),
-            FlatButton(
-              child: Text("Forgot password?"),
-              onPressed: () {},
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                FlatButton(
+                  child: Text("Create Account"),
+                  onPressed: () {},
+                ),
+                FlatButton(
+                  child: Text("Forgot password?"),
+                  onPressed: () {},
+                ),
+              ],
             )
           ],
         ),
